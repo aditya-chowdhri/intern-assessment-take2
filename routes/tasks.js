@@ -50,6 +50,15 @@ router.get("/tasks/get", async (req, res) => {
   res.json(tasks);
 });
 
+
+//  It should be possible to read a task.
+router.post("/tasks/read", async (req, res) => {
+  const {taskId} = req.query;
+  const task = await Task.findByPk(taskId);
+  res.json(task);
+});
+
+
 // Create a new task --> It should be possible to create a task. 
 router.post("/tasks/create", async (req, res) => {
   const { taskTitle} = req.query;
