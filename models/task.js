@@ -11,6 +11,11 @@ Task.init(
       primaryKey: true,
       autoIncrement: true,
     },
+    //Add validation 
+    status: {
+      type: DataTypes.STRING,
+      allowNull: false,
+    },
     title: {
       type: DataTypes.STRING,
       allowNull: false,

@@ -1,0 +1,40 @@
+.taskbar {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .taskbar-input {
+    flex: 1;
+    max-width: 300px;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    outline: none;
+    transition: border-color 0.2s ease;
+  }
+  
+  .taskbar-input:focus {
+    border-color: #007bff;
+  }
+  
+  .taskbar-button {
+    padding: 8px 14px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .taskbar-button:hover {
+    background-color: #0056b3;
+  }
+  
