@@ -9,14 +9,14 @@ Backend: 1 hour
 Frontend: 3 hours
 
 3. What is the most challenging part of the project?
-Connecting the backend API to the frontend for a smooth User experience
+Connecting the backend API to the frontend for a smooth User experience. Also adding robust error testing to consider all edge cases. 
 
 4. What did you learn from this project?
-I learned how to plan ahead in terms of creating a simple application in an efficient manner instead of just blindly coding. I planned how I would achieve the needed functionality with the least amount of code and also how to efficiently format as well as comment on that code to improve readability 
+I learned how to plan ahead in terms of creating a simple application in an efficient manner instead of just blindly coding. I planned how I would achieve the needed functionality with the least amount of code and also how to efficiently format as well as comment on that code to improve readability. I also learned the basics of error testing and why its important in real projects. 
 
 
 5. What would you like to add or improve in this project?
-There can be more functionality added to the to-do list. Adding a due-date is the most obvious change, sorting based on it, adding priorities in terms of how important the task is or creating groups based on the importance of the task. In addition I would also add server-side pagination to make it more readible when a user has many tasks. I would also add a search feature.
+There can be more functionality added to the to-do list. Adding a due-date is the most obvious change, sorting based on it, adding priorities in terms of how important the task is or creating groups based on the importance of the task. In addition I would also add server-side pagination to make it more readible when a user has many tasks. I would also add a search feature. I would also add more testing in the backend that robustly checks the validity of the API call. For example it should not allow a letter or word in an integer field or vice versa. 
 
 
 6. What is your feedback on this project?
