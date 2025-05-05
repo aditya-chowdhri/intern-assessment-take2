@@ -30,21 +30,21 @@ N/a
 
 Create a Todo App todo the following requirements:
 
-- [Completed] It should be possible to create a task.
-- [Completed] It should be possible to read a task.
-- [Completed] It should be possible to mark a task as completed.
-- [Completed] It should be possible to update the title of task.
-- [Completed] It should be possible to delete a task.
-- [Completed] It should be possible to list all tasks.
-- [Completed] It should be possible to list all completed tasks.
-- [Completed] It should be possible to list all pending tasks.
+- [x] It should be possible to create a task.
+- [x] It should be possible to read a task.
+- [x] It should be possible to mark a task as completed.
+- [x] It should be possible to update the title of task.
+- [x] It should be possible to delete a task.
+- [x] It should be possible to list all tasks.
+- [x] It should be possible to list all completed tasks.
+- [x] It should be possible to list all pending tasks.
 
 Once competed, you can submit a pull request to the original repository.
 
 Ensure:
 
-- [ ] The code is clean and readable.
-- [ ] The code is well-structured.
-- [ ] The code is well-commented.
-- [ ] Only the required files are committed.
-- [ ] Answer the questions in the pull request template.
+- [x] The code is clean and readable.
+- [x] The code is well-structured.
+- [x] The code is well-commented.
+- [x] Only the required files are committed.
+- [x] Answer the questions in the pull request template.
